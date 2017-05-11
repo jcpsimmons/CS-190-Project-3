@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{294127F5-BEA3-42ED-8E42-63138FE28320}" PersistMode="Standalone">
 			<ChildrenList>
 				<BlendContainer Name="Game-Soundtrack" ID="{FE90AAB6-4E45-4456-86B6-8EBB19A99175}" ShortID="326842703">
+					<PropertyList>
+						<Property Name="BlendBehavior" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF801E4A-EF13-40B6-BDB8-E66C7AFC8A26}"/>
@@ -13,7 +16,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="3_Simmons_Music_v1 Ambiance" ID="{F2C9F186-7BC8-4D3B-88DC-D5E6325B2425}" ShortID="956073612" Type="SoundFX">
+						<Sound Name="Soundtrack_7" ID="{8BA9DF28-29D1-4EAB-AA82-298D448158BE}" ShortID="532116896" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -26,16 +29,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Simmons_Music_v1 Ambiance" ID="{412771FD-513D-459A-AEEC-8084DEE93B3C}" ShortID="304863764">
+								<AudioFileSource Name="Soundtrack_7" ID="{4A41C89C-A328-4D35-BB72-A91DBC5FE546}" ShortID="262715940">
 									<Language>SFX</Language>
-									<AudioFile>Simmons_Music_v1 Ambiance.wav</AudioFile>
+									<AudioFile>Soundtrack_7.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Simmons_Music_v1 Ambiance" ID="{412771FD-513D-459A-AEEC-8084DEE93B3C}" Platform="Linked"/>
+								<ActiveSource Name="Soundtrack_7" ID="{4A41C89C-A328-4D35-BB72-A91DBC5FE546}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="2_Simmons_Music_v1 Blips" ID="{2161C4E7-30CD-444C-A5C5-69C4310B3AFD}" ShortID="295168199" Type="SoundFX">
+						<Sound Name="Soundtrack_6" ID="{B5046969-1A9B-4598-83DA-9C002CB241CB}" ShortID="588477517" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -48,16 +51,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Simmons_Music_v1 Blips" ID="{6A5C9DB5-1F77-40ED-B9E8-E4D1A173178D}" ShortID="614696621">
+								<AudioFileSource Name="Soundtrack_6" ID="{4A659439-193B-4EB4-A898-F386791E3195}" ShortID="553691370">
 									<Language>SFX</Language>
-									<AudioFile>Simmons_Music_v1 Blips.wav</AudioFile>
+									<AudioFile>Soundtrack_6.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Simmons_Music_v1 Blips" ID="{6A5C9DB5-1F77-40ED-B9E8-E4D1A173178D}" Platform="Linked"/>
+								<ActiveSource Name="Soundtrack_6" ID="{4A659439-193B-4EB4-A898-F386791E3195}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="6_Simmons_Music_v1 ChordProg" ID="{FD4DB3B1-D67D-40EA-BB19-B7A6D9B0FC79}" ShortID="885434892" Type="SoundFX">
+						<Sound Name="Soundtrack_5" ID="{2B8D26F0-2BAF-4405-ADDA-95B7A893C8E0}" ShortID="596477826" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -70,16 +73,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Simmons_Music_v1 ChordProg" ID="{5D08FD62-BEDA-422B-BB33-9EE21A1D2070}" ShortID="384294229">
+								<AudioFileSource Name="Soundtrack_5" ID="{B9B3539C-F264-4690-8A5D-10097BFC7D33}" ShortID="157651896">
 									<Language>SFX</Language>
-									<AudioFile>Simmons_Music_v1 ChordProg.wav</AudioFile>
+									<AudioFile>Soundtrack_5.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Simmons_Music_v1 ChordProg" ID="{5D08FD62-BEDA-422B-BB33-9EE21A1D2070}" Platform="Linked"/>
+								<ActiveSource Name="Soundtrack_5" ID="{B9B3539C-F264-4690-8A5D-10097BFC7D33}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="7_Simmons_Music_v1 808Thumper" ID="{FC7195AC-9972-4741-BCDE-A23E952FAE79}" ShortID="1006505696" Type="SoundFX">
+						<Sound Name="Soundtrack_4" ID="{1B6F10B9-A641-4580-A37C-BD9351C84A18}" ShortID="900667910" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -92,16 +95,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Simmons_Music_v1 808Thumper" ID="{89396D29-15B6-40D2-9EFE-C548896B1EFA}" ShortID="294892319">
+								<AudioFileSource Name="Soundtrack_4" ID="{068184FE-093A-4B57-B4D3-A610BC1F098D}" ShortID="130590789">
 									<Language>SFX</Language>
-									<AudioFile>Simmons_Music_v1 808Thumper.wav</AudioFile>
+									<AudioFile>Soundtrack_4.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Simmons_Music_v1 808Thumper" ID="{89396D29-15B6-40D2-9EFE-C548896B1EFA}" Platform="Linked"/>
+								<ActiveSource Name="Soundtrack_4" ID="{068184FE-093A-4B57-B4D3-A610BC1F098D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="4_Simmons_Music_v1 Bells" ID="{BB4C144E-629E-45A3-96AF-30A8E0A68ECB}" ShortID="979630368" Type="SoundFX">
+						<Sound Name="Soundtrack_3" ID="{16019C0D-F222-4124-88EB-6B3E96F024EE}" ShortID="1021961051" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -114,16 +117,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Simmons_Music_v1 Bells" ID="{59C0F6D2-CBEF-49F5-A724-3AFE1B1FB96F}" ShortID="997083728">
+								<AudioFileSource Name="Soundtrack_3" ID="{E7B26186-EE71-4F59-9E23-7964747D7DE2}" ShortID="426650449">
 									<Language>SFX</Language>
-									<AudioFile>Simmons_Music_v1 Bells.wav</AudioFile>
+									<AudioFile>Soundtrack_3.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Simmons_Music_v1 Bells" ID="{59C0F6D2-CBEF-49F5-A724-3AFE1B1FB96F}" Platform="Linked"/>
+								<ActiveSource Name="Soundtrack_3" ID="{E7B26186-EE71-4F59-9E23-7964747D7DE2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="1_Simmons_Music_v1 Clicks" ID="{A575EAA2-6FCB-48A2-9F3B-D5B39D15D114}" ShortID="1007126027" Type="SoundFX">
+						<Sound Name="Soundtrack_2" ID="{74A3E4E2-F7D4-4D00-98E9-AC7567DE732E}" ShortID="881657735" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -136,16 +139,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Simmons_Music_v1 Clicks" ID="{6F3F0618-4803-4B72-AB5B-53D3B83DDE49}" ShortID="382116112">
+								<AudioFileSource Name="Soundtrack_2" ID="{5A23ADCB-9605-47A5-BF8E-8923521651FD}" ShortID="239117717">
 									<Language>SFX</Language>
-									<AudioFile>Simmons_Music_v1 Clicks.wav</AudioFile>
+									<AudioFile>Soundtrack_2.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Simmons_Music_v1 Clicks" ID="{6F3F0618-4803-4B72-AB5B-53D3B83DDE49}" Platform="Linked"/>
+								<ActiveSource Name="Soundtrack_2" ID="{5A23ADCB-9605-47A5-BF8E-8923521651FD}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="5_Simmons_Music_v1 Drums" ID="{AF768DDF-06D4-464A-B056-461FE381A434}" ShortID="4633364" Type="SoundFX">
+						<Sound Name="Soundtrack_1" ID="{31E3D99A-1119-454E-BF5A-CC4256410424}" ShortID="393325069" Type="SoundFX">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -158,13 +161,13 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Simmons_Music_v1 Drums" ID="{48001170-2051-4456-964E-867EFA3FBD4D}" ShortID="289077426">
+								<AudioFileSource Name="Soundtrack_1" ID="{2FA6BB2D-5FF9-4D5E-8658-5BE1FDC8C1E3}" ShortID="966950373">
 									<Language>SFX</Language>
-									<AudioFile>Simmons_Music_v1 Drums.wav</AudioFile>
+									<AudioFile>Soundtrack_1.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Simmons_Music_v1 Drums" ID="{48001170-2051-4456-964E-867EFA3FBD4D}" Platform="Linked"/>
+								<ActiveSource Name="Soundtrack_1" ID="{2FA6BB2D-5FF9-4D5E-8658-5BE1FDC8C1E3}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -180,63 +183,63 @@
 							</ReferenceList>
 							<BlendTrackAssocList>
 								<BlendTrackAssoc>
-									<ItemRef Name="1_Simmons_Music_v1 Clicks" ID="{A575EAA2-6FCB-48A2-9F3B-D5B39D15D114}"/>
+									<ItemRef Name="Soundtrack_1" ID="{31E3D99A-1119-454E-BF5A-CC4256410424}"/>
 									<CrossfadingInfo>
 										<LeftEdgePos>0</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>15.9711075441413</RightEdgePos>
+										<RightEdgePos>28.1091214824123</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
 									</CrossfadingInfo>
 								</BlendTrackAssoc>
 								<BlendTrackAssoc>
-									<ItemRef Name="2_Simmons_Music_v1 Blips" ID="{2161C4E7-30CD-444C-A5C5-69C4310B3AFD}"/>
+									<ItemRef Name="Soundtrack_2" ID="{74A3E4E2-F7D4-4D00-98E9-AC7567DE732E}"/>
 									<CrossfadingInfo>
 										<LeftEdgePos>0.0005</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>28.5714285714286</RightEdgePos>
+										<RightEdgePos>42.3845176860038</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
 									</CrossfadingInfo>
 								</BlendTrackAssoc>
 								<BlendTrackAssoc>
-									<ItemRef Name="3_Simmons_Music_v1 Ambiance" ID="{F2C9F186-7BC8-4D3B-88DC-D5E6325B2425}"/>
+									<ItemRef Name="Soundtrack_3" ID="{16019C0D-F222-4124-88EB-6B3E96F024EE}"/>
 									<CrossfadingInfo>
-										<LeftEdgePos>15.9711075441413</LeftEdgePos>
+										<LeftEdgePos>28.1091214824123</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>42.8571428571429</RightEdgePos>
+										<RightEdgePos>57.6218353329443</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
 									</CrossfadingInfo>
 								</BlendTrackAssoc>
 								<BlendTrackAssoc>
-									<ItemRef Name="4_Simmons_Music_v1 Bells" ID="{BB4C144E-629E-45A3-96AF-30A8E0A68ECB}"/>
+									<ItemRef Name="Soundtrack_4" ID="{1B6F10B9-A641-4580-A37C-BD9351C84A18}"/>
 									<CrossfadingInfo>
-										<LeftEdgePos>28.5714285714286</LeftEdgePos>
+										<LeftEdgePos>49.8331105258425</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>57.1428571428571</RightEdgePos>
+										<RightEdgePos>78.6922186021775</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
 									</CrossfadingInfo>
 								</BlendTrackAssoc>
 								<BlendTrackAssoc>
-									<ItemRef Name="5_Simmons_Music_v1 Drums" ID="{AF768DDF-06D4-464A-B056-461FE381A434}"/>
+									<ItemRef Name="Soundtrack_5" ID="{2B8D26F0-2BAF-4405-ADDA-95B7A893C8E0}"/>
 									<CrossfadingInfo>
-										<LeftEdgePos>42.8571428571429</LeftEdgePos>
+										<LeftEdgePos>68.3175392515906</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>71.4285714285714</RightEdgePos>
+										<RightEdgePos>86.7184154837921</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
 									</CrossfadingInfo>
 								</BlendTrackAssoc>
 								<BlendTrackAssoc>
-									<ItemRef Name="6_Simmons_Music_v1 ChordProg" ID="{FD4DB3B1-D67D-40EA-BB19-B7A6D9B0FC79}"/>
+									<ItemRef Name="Soundtrack_6" ID="{B5046969-1A9B-4598-83DA-9C002CB241CB}"/>
 									<CrossfadingInfo>
-										<LeftEdgePos>57.1428571428571</LeftEdgePos>
+										<LeftEdgePos>81.5094248204979</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>85.9951845906902</RightEdgePos>
+										<RightEdgePos>97.3383972759763</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
 									</CrossfadingInfo>
 								</BlendTrackAssoc>
 								<BlendTrackAssoc>
-									<ItemRef Name="7_Simmons_Music_v1 808Thumper" ID="{FC7195AC-9972-4741-BCDE-A23E952FAE79}"/>
+									<ItemRef Name="Soundtrack_7" ID="{8BA9DF28-29D1-4EAB-AA82-298D448158BE}"/>
 									<CrossfadingInfo>
-										<LeftEdgePos>71.4285714285714</LeftEdgePos>
+										<LeftEdgePos>91.7488134355604</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
 										<RightEdgePos>100</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
