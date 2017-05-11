@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E3248DE9-AE9F-4D0E-8C65-42141BB2A3C3}" SchemaVersion="75">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{E3248DE9-AE9F-4D0E-8C65-42141BB2A3C3}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E3248DE9-AE9F-4D0E-8C65-42141BB2A3C3}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="FinishLineProximity" ID="{DFC06A4B-2858-4C41-B3F3-8D6663EC892F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
