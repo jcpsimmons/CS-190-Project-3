@@ -16,9 +16,19 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{8E674E53-974D-4A12-BBAB-03FD3AA6E128}'
-    m_lastTimePsrt1: -390037328
-    m_lastTimePart2: -1999333587
-    List: []
+    m_lastTimePsrt1: 752080954
+    m_lastTimePart2: -1999333158
+    List:
+    - Name: Beacon
+      Path: Default Work Unit\Beacon
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Beacon
+        ObjectType: 3
+      ID: -1053114871
+      Guid: c8d3d75f6214fd4ba97d102781789f4a
+      maxAttenuation: 60
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -30,9 +40,26 @@ MonoBehaviour:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{96BF71E0-6E4F-41BB-80AE-1D2383B9ED77}'
-    m_lastTimePsrt1: -390327247
-    m_lastTimePart2: -1999333587
-    List: []
+    m_lastTimePsrt1: 1907989555
+    m_lastTimePart2: -1999333169
+    List:
+    - Name: New_State_Group
+      Path: Default Work Unit\New_State_Group
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: New_State_Group
+        ObjectType: 9
+      ID: 2012657067
+      Guid: 7d83a281a7fcd84991fcf6aa9a0587cc
+      values:
+      - None
+      ValueIcons:
+      - ElementName: None
+        ObjectType: 8
+      valueIDs: db3ba32c
+      ValueGuids:
+      - bytes: ab1edfe563e9104a98fb010349907b50
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -44,10 +71,20 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{D935876D-5FBF-43AD-B25D-44C00CE811E6}'
-    m_lastTimePsrt1: -389607193
-    m_lastTimePart2: -1999333587
-    List: []
-  ExpandedItems: []
+    m_lastTimePsrt1: 1526060722
+    m_lastTimePart2: -1999333158
+    List:
+    - Name: Main
+      Path: Default Work Unit\Main
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      ID: -1133058374
+      Guid: 368c4911d3831a40bc1098909a3a27d4
+  ExpandedItems:
+  - /CS-190-Project-3_WwiseProject
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

@@ -6,8 +6,59 @@
 				<BlendContainer Name="Game-Soundtrack" ID="{FE90AAB6-4E45-4456-86B6-8EBB19A99175}" ShortID="326842703">
 					<PropertyList>
 						<Property Name="BlendBehavior" Type="int16" Value="1"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{1A21A69E-DF44-4FC1-8180-DE09C2F3916A}" ShortID="661516577">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="60"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{0C209936-0186-4493-AA33-6B6CBC680D4E}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>60</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF801E4A-EF13-40B6-BDB8-E66C7AFC8A26}"/>
 						</Reference>
@@ -171,6 +222,9 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{C0CB53AC-7D5F-463F-A02C-199C1B43DB7D}"/>
+					</PositioningInfo>
 					<BlendTrackList>
 						<BlendTrack Name="Soundtrack-Mixer" ID="{87B3AA24-D47E-45D3-88B9-59C71CBBFE47}" ShortID="164135086">
 							<PropertyList>
@@ -194,7 +248,7 @@
 								<BlendTrackAssoc>
 									<ItemRef Name="Soundtrack_2" ID="{74A3E4E2-F7D4-4D00-98E9-AC7567DE732E}"/>
 									<CrossfadingInfo>
-										<LeftEdgePos>0.0005</LeftEdgePos>
+										<LeftEdgePos>5.00000000002387E-04</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
 										<RightEdgePos>42.3845176860038</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>

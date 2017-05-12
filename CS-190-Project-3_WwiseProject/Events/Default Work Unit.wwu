@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8E674E53-974D-4A12-BBAB-03FD3AA6E128}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{8E674E53-974D-4A12-BBAB-03FD3AA6E128}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8E674E53-974D-4A12-BBAB-03FD3AA6E128}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Beacon" ID="{5FD7D3C8-1462-4BFD-A97D-102781789F4A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D1C16B33-8FD4-47FB-B9A4-128EE63653AA}" ShortID="410699360" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{FFD1F6D3-51DF-4508-AE0B-3CDE257FCFB8}" Global="false">
+									<ObjectRef Name="Game-Soundtrack" ID="{FE90AAB6-4E45-4456-86B6-8EBB19A99175}" WorkUnitID="{294127F5-BEA3-42ED-8E42-63138FE28320}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
