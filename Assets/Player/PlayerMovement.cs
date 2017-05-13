@@ -5,26 +5,18 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour {
 
     public float speed = 5f;
-    //CharacterController characterController;
     private Vector3 moveDirection;
-    void Awake()
-    {
-        //characterController = this.GetComponent<CharacterController>();
-    }
-    
+
     void Update()
     {
-        float horizontal = speed * Input.GetAxis("Horizontal") * Time.deltaTime;
-        float vertical = speed * Input.GetAxis("Vertical") * Time.deltaTime;
+        float horizontal = speed * Input.GetAxis("Horizontal");
+        float vertical = speed * Input.GetAxis("Vertical");
 
-        moveDirection = new Vector3(horizontal, 0, vertical);
-        moveDirection = transform.TransformDirection(moveDirection);
-
-        //characterController.Move(moveDirection);
+        moveDirection = (horizontal * this.transform.right) + (vertical * this.transform.forward);
     }
 
     void FixedUpdate()
     {
-        this.transform.Translate(moveDirection);
+        this.transform.Translate(moveDirection * Time.deltaTime, Space.World);
     }
 }
