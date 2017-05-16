@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -4853,6 +4853,90 @@ MonoBehaviour:
   - {fileID: 1892975021}
   - {fileID: 87315014}
   - {fileID: 820608733}
+  - {fileID: 1477725343}
+  - {fileID: 508168670}
+  - {fileID: 508168670}
+  - {fileID: 1053439753}
+  - {fileID: 1190434137}
+  - {fileID: 842253691}
+  - {fileID: 1615841836}
+  - {fileID: 514901915}
+  - {fileID: 1027036042}
+  - {fileID: 2004683005}
+  - {fileID: 1611971948}
+  - {fileID: 1321646445}
+  - {fileID: 1466097850}
+  - {fileID: 31237409}
+  - {fileID: 676983159}
+  - {fileID: 768561665}
+  - {fileID: 2119562606}
+  - {fileID: 1254975846}
+  - {fileID: 683078490}
+  - {fileID: 416303521}
+  - {fileID: 886086445}
+  - {fileID: 1793433222}
+  - {fileID: 35917405}
+  - {fileID: 544465819}
+  - {fileID: 335378273}
+  - {fileID: 1558495037}
+  - {fileID: 337344097}
+  - {fileID: 873237869}
+  - {fileID: 475325311}
+  - {fileID: 240251704}
+  - {fileID: 1531599086}
+  - {fileID: 1918927006}
+  - {fileID: 1725960167}
+  - {fileID: 1575575964}
+  - {fileID: 129239312}
+  - {fileID: 243148117}
+  - {fileID: 1862419581}
+  - {fileID: 1151941573}
+  - {fileID: 1709016580}
+  - {fileID: 2126724731}
+  - {fileID: 421683074}
+  - {fileID: 1918455672}
+  - {fileID: 447519008}
+  - {fileID: 1965961395}
+  - {fileID: 1394067048}
+  - {fileID: 1038943576}
+  - {fileID: 1119436025}
+  - {fileID: 638671057}
+  - {fileID: 1968806449}
+  - {fileID: 1234782560}
+  - {fileID: 852983571}
+  - {fileID: 899441340}
+  - {fileID: 2100239796}
+  - {fileID: 1908933370}
+  - {fileID: 1331617526}
+  - {fileID: 1990199417}
+  - {fileID: 1886119024}
+  - {fileID: 307045476}
+  - {fileID: 226746925}
+  - {fileID: 820727138}
+  - {fileID: 74400547}
+  - {fileID: 1493455173}
+  - {fileID: 1512923205}
+  - {fileID: 794177413}
+  - {fileID: 1598550772}
+  - {fileID: 777200284}
+  - {fileID: 254527108}
+  - {fileID: 995292768}
+  - {fileID: 115422538}
+  - {fileID: 212186373}
+  - {fileID: 80220456}
+  - {fileID: 1935867126}
+  - {fileID: 87824280}
+  - {fileID: 862516559}
+  - {fileID: 366396241}
+  - {fileID: 2037783763}
+  - {fileID: 975771276}
+  - {fileID: 1088855097}
+  - {fileID: 544304076}
+  - {fileID: 169313584}
+  - {fileID: 660599866}
+  - {fileID: 1389594757}
+  - {fileID: 841306498}
+  - {fileID: 2056149150}
 --- !u!1 &81823291
 GameObject:
   m_ObjectHideFlags: 0
