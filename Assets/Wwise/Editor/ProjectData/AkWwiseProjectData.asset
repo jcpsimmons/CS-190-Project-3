@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{8E674E53-974D-4A12-BBAB-03FD3AA6E128}'
-    m_lastTimePsrt1: 752080954
-    m_lastTimePart2: -1999333158
+    m_lastTimePsrt1: -93796805
+    m_lastTimePart2: -1999332941
     List:
     - Name: Beacon
       Path: Default Work Unit\Beacon
@@ -28,20 +28,20 @@ MonoBehaviour:
         ObjectType: 3
       ID: -1053114871
       Guid: c8d3d75f6214fd4ba97d102781789f4a
-      maxAttenuation: 60
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{0FCEE245-5FD4-4FF0-A938-518B7F3D94E4}'
-    m_lastTimePsrt1: -389917206
-    m_lastTimePart2: -1999333587
+    m_lastTimePsrt1: -93595985
+    m_lastTimePart2: -1999332941
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{96BF71E0-6E4F-41BB-80AE-1D2383B9ED77}'
-    m_lastTimePsrt1: 1907989555
-    m_lastTimePart2: -1999333169
+    m_lastTimePsrt1: -85131039
+    m_lastTimePart2: -1999332941
     List:
     - Name: New_State_Group
       Path: Default Work Unit\New_State_Group
@@ -64,15 +64,15 @@ MonoBehaviour:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{73F9E3E3-FBEB-4350-AA06-D6D1F43A1549}'
-    m_lastTimePsrt1: -389513922
-    m_lastTimePart2: -1999333587
+    m_lastTimePsrt1: -85091205
+    m_lastTimePart2: -1999332941
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{D935876D-5FBF-43AD-B25D-44C00CE811E6}'
-    m_lastTimePsrt1: 1526060722
-    m_lastTimePart2: -1999333158
+    m_lastTimePsrt1: -85241622
+    m_lastTimePart2: -1999332941
     List:
     - Name: Main
       Path: Default Work Unit\Main
@@ -85,6 +85,8 @@ MonoBehaviour:
       Guid: 368c4911d3831a40bc1098909a3a27d4
   ExpandedItems:
   - /CS-190-Project-3_WwiseProject
+  - /CS-190-Project-3_WwiseProject/SoundBanks
+  - /CS-190-Project-3_WwiseProject/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
