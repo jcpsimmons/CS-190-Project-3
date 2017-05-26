@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_ErrorBeacon" ID="{5CD7CA7C-9D88-44EE-A943-CD1E574EF74C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9E32B35D-7C37-4091-A0A8-7870872AD549}" ShortID="975318940" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BE89877E-54D9-403A-85C1-42A9A3D59258}" Global="false">
+									<ObjectRef Name="OffPathSound" ID="{3F2A26BF-8F75-4614-8924-BA7691ADC9CC}" WorkUnitID="{294127F5-BEA3-42ED-8E42-63138FE28320}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_ErrorBeacon" ID="{A7BA27CC-8F74-428C-B069-0C38E8FC75B4}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{81FAB13F-D8B7-45C7-9DB8-0DA72AE3903F}" ShortID="633834226" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{13EB02A3-FB1C-4839-A893-8FCFD2902691}" Global="false">
+									<ObjectRef Name="OffPathSound" ID="{3F2A26BF-8F75-4614-8924-BA7691ADC9CC}" WorkUnitID="{294127F5-BEA3-42ED-8E42-63138FE28320}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

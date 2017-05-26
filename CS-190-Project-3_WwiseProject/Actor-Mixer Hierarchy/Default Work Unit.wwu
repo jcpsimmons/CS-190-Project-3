@@ -6,7 +6,6 @@
 				<BlendContainer Name="Game-Soundtrack" ID="{FE90AAB6-4E45-4456-86B6-8EBB19A99175}" ShortID="326842703">
 					<PropertyList>
 						<Property Name="BlendBehavior" Type="int16" Value="1"/>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -248,7 +247,7 @@
 								<BlendTrackAssoc>
 									<ItemRef Name="Soundtrack_2" ID="{74A3E4E2-F7D4-4D00-98E9-AC7567DE732E}"/>
 									<CrossfadingInfo>
-										<LeftEdgePos>5.00000000002387E-04</LeftEdgePos>
+										<LeftEdgePos>0.0005</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
 										<RightEdgePos>42.3845176860038</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
@@ -303,6 +302,56 @@
 						</BlendTrack>
 					</BlendTrackList>
 				</BlendContainer>
+				<Sound Name="OffPathSound" ID="{3F2A26BF-8F75-4614-8924-BA7691ADC9CC}" ShortID="627159922" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{AF354731-47E6-4EE2-9073-0040EDE55ECD}" ShortID="572109025">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ErrorBeaconDistance" ID="{E918676C-2C70-4B95-B16C-BDE70D983297}" WorkUnitID="{E3248DE9-AE9F-4D0E-8C65-42141BB2A3C3}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{865AB2DD-C944-4380-9221-4309D636B0B4}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>67</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF801E4A-EF13-40B6-BDB8-E66C7AFC8A26}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0FCEE245-5FD4-4FF0-A938-518B7F3D94E4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="OffPathSound" ID="{DF141ECC-A52B-4352-A37F-41E25E7A4CAD}" ShortID="161947626">
+							<Language>SFX</Language>
+							<AudioFile>OffPathSound.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="OffPathSound" ID="{DF141ECC-A52B-4352-A37F-41E25E7A4CAD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

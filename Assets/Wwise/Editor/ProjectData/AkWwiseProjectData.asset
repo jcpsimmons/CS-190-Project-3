@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{8E674E53-974D-4A12-BBAB-03FD3AA6E128}'
-    m_lastTimePsrt1: -1498759165
-    m_lastTimePart2: -1999330801
+    m_lastTimePsrt1: 1733769586
+    m_lastTimePart2: -1999330341
     List:
     - Name: Beacon
       Path: Default Work Unit\Beacon
@@ -28,6 +28,26 @@ MonoBehaviour:
         ObjectType: 3
       ID: -1053114871
       Guid: c8d3d75f6214fd4ba97d102781789f4a
+      maxAttenuation: 60
+    - Name: Play_ErrorBeacon
+      Path: Default Work Unit\Play_ErrorBeacon
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_ErrorBeacon
+        ObjectType: 3
+      ID: -1309792172
+      Guid: 7ccad75c889dee44a943cd1e574ef74c
+      maxAttenuation: 0
+    - Name: Stop_ErrorBeacon
+      Path: Default Work Unit\Stop_ErrorBeacon
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_ErrorBeacon
+        ObjectType: 3
+      ID: 650353230
+      Guid: cc27baa7748f8c42b0690c38e8fc75b4
       maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -71,8 +91,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{D935876D-5FBF-43AD-B25D-44C00CE811E6}'
-    m_lastTimePsrt1: -1494215264
-    m_lastTimePart2: -1999330801
+    m_lastTimePsrt1: 1733894924
+    m_lastTimePart2: -1999330341
     List:
     - Name: Main
       Path: Default Work Unit\Main
@@ -85,8 +105,8 @@ MonoBehaviour:
       Guid: 368c4911d3831a40bc1098909a3a27d4
   ExpandedItems:
   - /CS-190-Project-3_WwiseProject
-  - /CS-190-Project-3_WwiseProject/SoundBanks
-  - /CS-190-Project-3_WwiseProject/SoundBanks/Default Work Unit
+  - /CS-190-Project-3_WwiseProject/Events
+  - /CS-190-Project-3_WwiseProject/Events/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

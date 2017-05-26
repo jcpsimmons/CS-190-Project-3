@@ -85,13 +85,13 @@ public class MazeGenerator : MonoBehaviour {
                 Vector3 cellLocation = new Vector3(col * 3, 0, row * 3);
                 GameObject newCell = (GameObject)Instantiate(cellPrefab, cellLocation, Quaternion.identity);
                 if (mazeClass.wallExists(col, row, Direction.direction.left))
-                    newCell.transform.FindChild("LeftWall").gameObject.SetActive(true);
+                    newCell.transform.Find("LeftWall").gameObject.SetActive(true);
                 if (mazeClass.wallExists(col, row, Direction.direction.right))
-                    newCell.transform.FindChild("RightWall").gameObject.SetActive(true);
+                    newCell.transform.Find("RightWall").gameObject.SetActive(true);
                 if (mazeClass.wallExists(col, row, Direction.direction.up))
-                    newCell.transform.FindChild("UpWall").gameObject.SetActive(true);
+                    newCell.transform.Find("UpWall").gameObject.SetActive(true);
                 if (mazeClass.wallExists(col, row, Direction.direction.down))
-                    newCell.transform.FindChild("DownWall").gameObject.SetActive(true);
+                    newCell.transform.Find("DownWall").gameObject.SetActive(true);
             }
         }
     }

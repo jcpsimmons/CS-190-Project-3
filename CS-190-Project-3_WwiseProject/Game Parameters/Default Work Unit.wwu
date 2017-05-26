@@ -8,6 +8,7 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="ErrorBeaconDistance" ID="{E918676C-2C70-4B95-B16C-BDE70D983297}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

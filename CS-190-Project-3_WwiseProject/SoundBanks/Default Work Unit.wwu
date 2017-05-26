@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{11498C36-83D3-401A-BC10-98909A3A27D4}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Stop_ErrorBeacon" ID="{A7BA27CC-8F74-428C-B069-0C38E8FC75B4}" WorkUnitID="{8E674E53-974D-4A12-BBAB-03FD3AA6E128}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_ErrorBeacon" ID="{5CD7CA7C-9D88-44EE-A943-CD1E574EF74C}" WorkUnitID="{8E674E53-974D-4A12-BBAB-03FD3AA6E128}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Beacon" ID="{5FD7D3C8-1462-4BFD-A97D-102781789F4A}" WorkUnitID="{8E674E53-974D-4A12-BBAB-03FD3AA6E128}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
