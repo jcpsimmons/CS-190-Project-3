@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{8E674E53-974D-4A12-BBAB-03FD3AA6E128}'
-    m_lastTimePsrt1: -827136112
-    m_lastTimePart2: -1999329733
+    m_lastTimePsrt1: -115071444
+    m_lastTimePart2: -1999328958
     List:
     - Name: Beacon
       Path: Default Work Unit\Beacon
@@ -28,6 +28,16 @@ MonoBehaviour:
         ObjectType: 3
       ID: -1053114871
       Guid: c8d3d75f6214fd4ba97d102781789f4a
+      maxAttenuation: 0
+    - Name: Footstep_Randomizer
+      Path: Default Work Unit\Footstep_Randomizer
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footstep_Randomizer
+        ObjectType: 3
+      ID: -1790573277
+      Guid: 710f7aaf7164c64aac41ae798eaf3997
       maxAttenuation: 0
     - Name: Play_ErrorBeacon
       Path: Default Work Unit\Play_ErrorBeacon
@@ -91,8 +101,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{D935876D-5FBF-43AD-B25D-44C00CE811E6}'
-    m_lastTimePsrt1: -827702955
-    m_lastTimePart2: -1999329733
+    m_lastTimePsrt1: -115176715
+    m_lastTimePart2: -1999328958
     List:
     - Name: Main
       Path: Default Work Unit\Main

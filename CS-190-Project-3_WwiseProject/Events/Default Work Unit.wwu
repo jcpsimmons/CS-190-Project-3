@@ -36,7 +36,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Foostep_Randomizer" ID="{AF7A0F71-6471-4AC6-AC41-AE798EAF3997}">
+				<Event Name="Footstep_Randomizer" ID="{AF7A0F71-6471-4AC6-AC41-AE798EAF3997}">
 					<ChildrenList>
 						<Action Name="Play" ID="{EBF55875-8049-4D6A-BAD6-455B1350EB87}" ShortID="900240490" Type="Play" Scope="One" Global="false">
 							<ElementList>

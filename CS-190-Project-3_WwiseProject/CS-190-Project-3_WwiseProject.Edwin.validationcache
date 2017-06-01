@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
-	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="63049737" DateHigh="30594505"/>
+	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2949525447" DateHigh="30595882"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="3622159039" DateHigh="30591900"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="3622199154" DateHigh="30591900"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="3622665634" DateHigh="30591900"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="3622715763" DateHigh="30591900"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3622756130" DateHigh="30591900"/>
-	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\CS-190-Project-3_WwiseProject.Edwin.wsettings" DateLow="3455268494" DateHigh="30594501"/>
+	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\CS-190-Project-3_WwiseProject.Edwin.wsettings" DateLow="2121836876" DateHigh="30594507"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\CS-190-Project-3_WwiseProject.wproj" DateLow="1636172610" DateHigh="30594501"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="3622795959" DateHigh="30591900"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Effects\Default Work Unit.wwu" DateLow="3622836339" DateHigh="30591900"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Effects\Factory Effects.wwu" DateLow="3622906542" DateHigh="30591900"/>
-	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Events\Default Work Unit.wwu" DateLow="1155545458" DateHigh="30594500"/>
+	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Events\Default Work Unit.wwu" DateLow="2949816221" DateHigh="30595882"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="387754481" DateHigh="30594499"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3623106790" DateHigh="30591900"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3623147183" DateHigh="30591900"/>
@@ -20,7 +20,7 @@
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Presets\Default Work Unit.wwu" DateLow="3631404675" DateHigh="30591900"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Queries\Default Work Unit.wwu" DateLow="3631439769" DateHigh="30591900"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Queries\Factory Queries.wwu" DateLow="3631489906" DateHigh="30591900"/>
-	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1155670796" DateHigh="30594500"/>
+	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="2953460911" DateHigh="30595882"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3631541955" DateHigh="30591900"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\States\Default Work Unit.wwu" DateLow="3631612129" DateHigh="30591900"/>
 	<ValidationCacheItem File="C:\Users\Edwin\Documents\School\CS 190\CS-190-Project-3\CS-190-Project-3_WwiseProject\Switches\Default Work Unit.wwu" DateLow="3631651963" DateHigh="30591900"/>
