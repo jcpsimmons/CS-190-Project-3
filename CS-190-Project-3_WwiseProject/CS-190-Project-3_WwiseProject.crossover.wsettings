@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{8E364C96-8CD3-4D6C-AC60-2AF189EACC69}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\.git\CS-190-Project-3\Joshs-assets\Audio-Music\Foley"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\.git\CS-190-Project-3\Joshs-assets\Audio-Music"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>
@@ -41,7 +41,7 @@
 				<Property Name="ProjectExplorer\Expanded_19_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_1_1" Type="string" Value="ReLOD9Rf8E+pOFGLfz2U5A=="/>
 				<Property Name="ProjectExplorer\Expanded_20_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\Expanded_2_1" Type="string" Value="9SdBKaO+7UKOQmMTj+KDILaqkP5FTlZEhraOuxmpkXWxFyiWqqpCRr30nxQrcII9"/>
+				<Property Name="ProjectExplorer\Expanded_2_1" Type="string" Value="9SdBKaO+7UKOQmMTj+KDIA=="/>
 				<Property Name="ProjectExplorer\Expanded_3_1" Type="string" Value="U05njk2XEkq7qwP9OqbhKA=="/>
 				<Property Name="ProjectExplorer\Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_5_1" Type="string" Value="4HG/lk9uu0GArh0jg7ntdw=="/>

@@ -267,23 +267,23 @@
 									<CrossfadingInfo>
 										<LeftEdgePos>49.8331105258425</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>78.6922186021775</RightEdgePos>
+										<RightEdgePos>70.0394256120351</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
 									</CrossfadingInfo>
 								</BlendTrackAssoc>
 								<BlendTrackAssoc>
 									<ItemRef Name="Soundtrack_5" ID="{2B8D26F0-2BAF-4405-ADDA-95B7A893C8E0}"/>
 									<CrossfadingInfo>
-										<LeftEdgePos>68.3175392515906</LeftEdgePos>
+										<LeftEdgePos>57.6218353329443</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
-										<RightEdgePos>86.7184154837921</RightEdgePos>
+										<RightEdgePos>88.3613508616672</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
 									</CrossfadingInfo>
 								</BlendTrackAssoc>
 								<BlendTrackAssoc>
 									<ItemRef Name="Soundtrack_6" ID="{B5046969-1A9B-4598-83DA-9C002CB241CB}"/>
 									<CrossfadingInfo>
-										<LeftEdgePos>81.5094248204979</LeftEdgePos>
+										<LeftEdgePos>70.0394256120351</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
 										<RightEdgePos>97.3383972759763</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
@@ -292,7 +292,7 @@
 								<BlendTrackAssoc>
 									<ItemRef Name="Soundtrack_7" ID="{8BA9DF28-29D1-4EAB-AA82-298D448158BE}"/>
 									<CrossfadingInfo>
-										<LeftEdgePos>91.7488134355604</LeftEdgePos>
+										<LeftEdgePos>88.3613508616672</LeftEdgePos>
 										<LeftFadingMode>Automatic</LeftFadingMode>
 										<RightEdgePos>100</RightEdgePos>
 										<RightFadingMode>Automatic</RightFadingMode>
@@ -456,6 +456,25 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="You-Win" ID="{2FE488E4-B8A7-4EE0-B18A-8EAAE088065F}" ShortID="658240781" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF801E4A-EF13-40B6-BDB8-E66C7AFC8A26}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0FCEE245-5FD4-4FF0-A938-518B7F3D94E4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="UWIN" ID="{99C67FA0-1CF1-43F6-A52F-1134B05AC7EF}" ShortID="903259897">
+							<Language>SFX</Language>
+							<AudioFile>UWIN.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="UWIN" ID="{99C67FA0-1CF1-43F6-A52F-1134B05AC7EF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

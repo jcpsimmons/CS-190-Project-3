@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
-	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="138283904" DateHigh="30594676"/>
+	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2567724928" DateHigh="30595882"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="3161403520" DateHigh="30591255"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="3161403520" DateHigh="30591255"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="49452416" DateHigh="30591654"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="3161403520" DateHigh="30591255"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3161403520" DateHigh="30591255"/>
-	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\CS-190-Project-3_WwiseProject.crossover.wsettings" DateLow="3104681344" DateHigh="30591661"/>
+	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\CS-190-Project-3_WwiseProject.crossover.wsettings" DateLow="2707724928" DateHigh="30595882"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\CS-190-Project-3_WwiseProject.wproj" DateLow="138283904" DateHigh="30594676"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="3161403520" DateHigh="30591255"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Effects\Default Work Unit.wwu" DateLow="3161403520" DateHigh="30591255"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Effects\Factory Effects.wwu" DateLow="3161403520" DateHigh="30591255"/>
-	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Events\Default Work Unit.wwu" DateLow="138283904" DateHigh="30594676"/>
+	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Events\Default Work Unit.wwu" DateLow="822823040" DateHigh="30595885"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="138283904" DateHigh="30594676"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3161403520" DateHigh="30591255"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3004681344" DateHigh="30591661"/>
@@ -20,7 +20,7 @@
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Presets\Default Work Unit.wwu" DateLow="3161403520" DateHigh="30591255"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Queries\Default Work Unit.wwu" DateLow="3161403520" DateHigh="30591255"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Queries\Factory Queries.wwu" DateLow="3161403520" DateHigh="30591255"/>
-	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="138283904" DateHigh="30594676"/>
+	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="822823040" DateHigh="30595885"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3161403520" DateHigh="30591255"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\States\Default Work Unit.wwu" DateLow="3004681344" DateHigh="30591661"/>
 	<ValidationCacheItem File="Y:\.git\CS-190-Project-3\CS-190-Project-3_WwiseProject\Switches\Default Work Unit.wwu" DateLow="3161403520" DateHigh="30591255"/>
