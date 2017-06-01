@@ -58,6 +58,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_Beacon" ID="{42278B9F-113D-4F31-AD95-68F137516C3E}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{30A899C0-C276-4046-A598-84AB12B1D468}" ShortID="204685770" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D606B3AF-E154-4E18-A4FC-772AE522BCBD}" Global="false">
+									<ObjectRef Name="Game-Soundtrack" ID="{FE90AAB6-4E45-4456-86B6-8EBB19A99175}" WorkUnitID="{294127F5-BEA3-42ED-8E42-63138FE28320}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

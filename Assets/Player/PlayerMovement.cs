@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public BeaconController beaconController;
 
     public float speed = 5f;
     private Vector3 moveDirection;
 
     public float footstepInterval = .5f;
     private float footstepCountdown = 0f;
-
     private float shaderTimer = 0.0f;
     public float shaderTimerReset = 5.0f;
     public int limit = 5;
-    public ParticleSystem fireworks;
     private Shader standardShader;
     private Shader transparentShader;
     private Color standardColor;
@@ -39,7 +38,6 @@ public class PlayerMovement : MonoBehaviour
         footstepCountdown -= Time.deltaTime;
         if (moveDirection != Vector3.zero && footstepCountdown <= 0f)
         {
-            Debug.Log("Playing Footsteps");
             AkSoundEngine.PostEvent("Footstep_Randomizer", this.gameObject);
             footstepCountdown = footstepInterval;
         }
@@ -71,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void TransformWalls()
     {
-        ToggleFireworks(true);
+        beaconController.ToggleFireworks(true);
         foreach (var gameObj in FindObjectsOfType(typeof (GameObject)) as GameObject[])
         {
             if (gameObj.name.Contains("Wall") && gameObj.activeSelf)
@@ -84,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void RevertWalls()
     {
-        ToggleFireworks(false);
+        beaconController.ToggleFireworks(false);
         foreach (var gameObj in FindObjectsOfType(typeof(GameObject)) as GameObject[])
         {
             if (gameObj.name.Contains("Wall") && gameObj.activeSelf)
@@ -95,15 +93,5 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void ToggleFireworks(bool active)
-    {
-        if (active)
-        {
-            fireworks.Play();
-        }
-        else
-        {
-            fireworks.Stop();
-        }
-    }
+    
 }

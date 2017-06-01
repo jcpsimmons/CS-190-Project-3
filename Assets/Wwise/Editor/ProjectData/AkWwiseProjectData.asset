@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{8E674E53-974D-4A12-BBAB-03FD3AA6E128}'
-    m_lastTimePsrt1: -115071444
-    m_lastTimePart2: -1999328958
+    m_lastTimePsrt1: 1590315255
+    m_lastTimePart2: -1999328953
     List:
     - Name: Beacon
       Path: Default Work Unit\Beacon
@@ -49,6 +49,16 @@ MonoBehaviour:
       ID: -1309792172
       Guid: 7ccad75c889dee44a943cd1e574ef74c
       maxAttenuation: 0
+    - Name: Stop_Beacon
+      Path: Default Work Unit\Stop_Beacon
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Beacon
+        ObjectType: 3
+      ID: 543748684
+      Guid: 9f8b27423d11314fad9568f137516c3e
+      maxAttenuation: 0
     - Name: Stop_ErrorBeacon
       Path: Default Work Unit\Stop_ErrorBeacon
       PathAndIcons:
@@ -58,6 +68,16 @@ MonoBehaviour:
         ObjectType: 3
       ID: 650353230
       Guid: cc27baa7748f8c42b0690c38e8fc75b4
+      maxAttenuation: 0
+    - Name: YouWin
+      Path: Default Work Unit\YouWin
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: YouWin
+        ObjectType: 3
+      ID: -91672416
+      Guid: 0092817961e74e4887869ec58041dbe1
       maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -101,8 +121,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{D935876D-5FBF-43AD-B25D-44C00CE811E6}'
-    m_lastTimePsrt1: -115176715
-    m_lastTimePart2: -1999328958
+    m_lastTimePsrt1: 1671710806
+    m_lastTimePart2: -1999328953
     List:
     - Name: Main
       Path: Default Work Unit\Main
@@ -117,6 +137,8 @@ MonoBehaviour:
   - /CS-190-Project-3_WwiseProject
   - /CS-190-Project-3_WwiseProject/Events
   - /CS-190-Project-3_WwiseProject/Events/Default Work Unit
+  - /CS-190-Project-3_WwiseProject/SoundBanks
+  - /CS-190-Project-3_WwiseProject/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
