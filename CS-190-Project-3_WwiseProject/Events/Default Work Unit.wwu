@@ -36,6 +36,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Foostep_Randomizer" ID="{AF7A0F71-6471-4AC6-AC41-AE798EAF3997}">
+					<ChildrenList>
+						<Action Name="Play" ID="{EBF55875-8049-4D6A-BAD6-455B1350EB87}" ShortID="900240490" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E88C95C1-66B2-49D1-9870-D444964E959F}" Global="false">
+									<ObjectRef Name="Footsteps" ID="{962817B1-AAAA-4642-BDF4-9F142B70823D}" WorkUnitID="{294127F5-BEA3-42ED-8E42-63138FE28320}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
