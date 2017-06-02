@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{8E674E53-974D-4A12-BBAB-03FD3AA6E128}'
-    m_lastTimePsrt1: 1590315255
-    m_lastTimePart2: -1999328953
+    m_lastTimePsrt1: -1136893636
+    m_lastTimePart2: -1999328921
     List:
     - Name: Beacon
       Path: Default Work Unit\Beacon
@@ -121,8 +121,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{D935876D-5FBF-43AD-B25D-44C00CE811E6}'
-    m_lastTimePsrt1: 1671710806
-    m_lastTimePart2: -1999328953
+    m_lastTimePsrt1: -1134971723
+    m_lastTimePart2: -1999328921
     List:
     - Name: Main
       Path: Default Work Unit\Main

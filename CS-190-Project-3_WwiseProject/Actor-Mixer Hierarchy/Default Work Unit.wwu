@@ -304,6 +304,7 @@
 				</BlendContainer>
 				<Sound Name="OffPathSound" ID="{3F2A26BF-8F75-4614-8924-BA7691ADC9CC}" ShortID="627159922" Type="SoundFX">
 					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Lowpass" Type="int16">
 							<RTPCList>
 								<RTPC Name="" ID="{AF354731-47E6-4EE2-9073-0040EDE55ECD}" ShortID="572109025">
