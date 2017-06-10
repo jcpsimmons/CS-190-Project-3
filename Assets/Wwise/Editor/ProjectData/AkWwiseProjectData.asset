@@ -13,14 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentPluginConfig: 
   EventWwu:
-  - PhysicalPath: Events\Default Work Unit.wwu
+  - PhysicalPath: Events/Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{8E674E53-974D-4A12-BBAB-03FD3AA6E128}'
-    m_lastTimePsrt1: 2042693801
-    m_lastTimePart2: -1999327363
+    m_lastTimePsrt1: 686210688
+    m_lastTimePart2: -1999328951
     List:
     - Name: Beacon
-      Path: Default Work Unit\Beacon
+      Path: Default Work Unit/Beacon
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -30,7 +30,7 @@ MonoBehaviour:
       Guid: c8d3d75f6214fd4ba97d102781789f4a
       maxAttenuation: 0
     - Name: Footstep_Randomizer
-      Path: Default Work Unit\Footstep_Randomizer
+      Path: Default Work Unit/Footstep_Randomizer
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -40,7 +40,7 @@ MonoBehaviour:
       Guid: 710f7aaf7164c64aac41ae798eaf3997
       maxAttenuation: 0
     - Name: Play_ErrorBeacon
-      Path: Default Work Unit\Play_ErrorBeacon
+      Path: Default Work Unit/Play_ErrorBeacon
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -50,7 +50,7 @@ MonoBehaviour:
       Guid: 7ccad75c889dee44a943cd1e574ef74c
       maxAttenuation: 0
     - Name: Stop_Beacon
-      Path: Default Work Unit\Stop_Beacon
+      Path: Default Work Unit/Stop_Beacon
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -60,7 +60,7 @@ MonoBehaviour:
       Guid: 9f8b27423d11314fad9568f137516c3e
       maxAttenuation: 0
     - Name: Stop_ErrorBeacon
-      Path: Default Work Unit\Stop_ErrorBeacon
+      Path: Default Work Unit/Stop_ErrorBeacon
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -70,7 +70,7 @@ MonoBehaviour:
       Guid: cc27baa7748f8c42b0690c38e8fc75b4
       maxAttenuation: 0
     - Name: YouWin
-      Path: Default Work Unit\YouWin
+      Path: Default Work Unit/YouWin
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -80,21 +80,21 @@ MonoBehaviour:
       Guid: 0092817961e74e4887869ec58041dbe1
       maxAttenuation: 0
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{0FCEE245-5FD4-4FF0-A938-518B7F3D94E4}'
-    m_lastTimePsrt1: -1498658975
-    m_lastTimePart2: -1999330801
+    m_lastTimePsrt1: -712061824
+    m_lastTimePart2: -1999333180
     List: []
   StateWwu:
-  - PhysicalPath: States\Default Work Unit.wwu
+  - PhysicalPath: States/Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{96BF71E0-6E4F-41BB-80AE-1D2383B9ED77}'
-    m_lastTimePsrt1: -1494185200
-    m_lastTimePart2: -1999330801
+    m_lastTimePsrt1: -712061824
+    m_lastTimePart2: -1999333180
     List:
     - Name: New_State_Group
-      Path: Default Work Unit\New_State_Group
+      Path: Default Work Unit/New_State_Group
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -111,21 +111,21 @@ MonoBehaviour:
       ValueGuids:
       - bytes: ab1edfe563e9104a98fb010349907b50
   SwitchWwu:
-  - PhysicalPath: Switches\Default Work Unit.wwu
+  - PhysicalPath: Switches/Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{73F9E3E3-FBEB-4350-AA06-D6D1F43A1549}'
-    m_lastTimePsrt1: -1494155222
-    m_lastTimePart2: -1999330801
+    m_lastTimePsrt1: -555339648
+    m_lastTimePart2: -1999333586
     List: []
   BankWwu:
-  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{D935876D-5FBF-43AD-B25D-44C00CE811E6}'
-    m_lastTimePsrt1: 2045480639
-    m_lastTimePart2: -1999327363
+    m_lastTimePsrt1: 686210688
+    m_lastTimePart2: -1999328951
     List:
     - Name: Main
-      Path: Default Work Unit\Main
+      Path: Default Work Unit/Main
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
