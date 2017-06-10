@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
     public BeaconController beaconController;
+    public Image shaderTimerImage;
 
     public float speed = 5f;
     private Vector3 moveDirection;
@@ -25,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
         standardShader = Shader.Find("Standard");
         transparentShader = Shader.Find("Transparent/Diffuse");
         standardColor = GameObject.Find("LeftWall").GetComponent<MeshRenderer>().material.color;
-        transparentColor = new Color(0.0f, 0.0f, 0.0f, 0.05f); // Edit the last value here to change how transparent the walls become.
+        transparentColor = new Color(0.0f, 0.0f, 0.0f, 0.1f); // Edit the last value here to change how transparent the walls become.
     }
 
     void Update()
@@ -48,17 +50,20 @@ public class PlayerMovement : MonoBehaviour
             wallsTransformed = true;
             limit--;
             shaderTimer = shaderTimerReset;
+            shaderTimerImage.gameObject.SetActive(true);
         }
 
         if (shaderTimer <= 0.0f && wallsTransformed)
         {
             RevertWalls();
             wallsTransformed = false;
+            shaderTimerImage.gameObject.SetActive(false);
         }
 
         if (shaderTimer > 0.0f)
         {
             shaderTimer -= Time.deltaTime;
+            shaderTimerImage.fillAmount = shaderTimer / shaderTimerReset;
         }
     }
 
@@ -92,6 +97,4 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
-
-    
 }

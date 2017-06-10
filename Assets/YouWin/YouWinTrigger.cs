@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class YouWinTrigger : MonoBehaviour
 {
-
     public BeaconController goalBeacon;
+    public GameObject gameOverUI;
 
     void OnTriggerEnter(Collider other)
     {
@@ -13,7 +13,14 @@ public class YouWinTrigger : MonoBehaviour
         {
             goalBeacon.PlayWinTrack();
             this.gameObject.SetActive(false);
+            Invoke("EnableGameOverUI", 10f);
         }
+    }
+
+    void EnableGameOverUI()
+    {
+        gameOverUI.SetActive(true);
+        Cursor.visible = true;
     }
 }
 
