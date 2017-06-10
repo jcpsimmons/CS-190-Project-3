@@ -24,7 +24,6 @@ public class ErrorBeacon : MonoBehaviour {
         if (isPlaying)
         {
             float rtpcPercentage = Mathf.Lerp(0, 100, (maxDistance - PlayerDistance()) / maxDistance);
-            Debug.Log(rtpcPercentage);
             AkSoundEngine.SetRTPCValue("ErrorBeaconDistance", rtpcPercentage);
         }
     }
